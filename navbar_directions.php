@@ -5,13 +5,13 @@
 				
 					<div>
 
-					<a href="index.php" ><li>Home</li></a>
-					<a href="rooms.php"><li>Rooms</li></a>
-					<a href="gallery.php"><li>Gallery</li></a>
-					<a href="specials.php"><li>Specials</li></a>
-					<a href="meet_and_event.php"><li>Meetings & Events</li></a>
-					<a href="contactus.php"><li >Contact</li></a>
-					<a href="directions.php"><li class="directions_select">Directions</li></a>
+					<a href="index.php" ><li>HOME</li></a>
+					<a href="rooms.php"><li>ROOMS</li></a>
+					<a href="gallery.php"><li>GALLERY</li></a>
+					<a href="specials.php"><li>SPECIALS</li></a>
+					<a href="meet_and_event.php"><li>MEETINGS & EVENTS</li></a>
+					<a href="contactus.php"><li >CONTACT</li></a>
+					<a href="directions.php"><li class="directions_select">DIRECTIONS</li></a>
 					</div>
 				
 			</ul>

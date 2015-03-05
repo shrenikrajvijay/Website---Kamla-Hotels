@@ -3,15 +3,15 @@
 		<div class="navbar_dropdown" style="text-align:center;">Menu</div>
 			<ul>
 				
-					<div>
+					<div class="navbar-width">
 
-					<a href="index.php" ><li class="home">Home</li></a>
-					<a href="rooms.php"><li>Rooms</li></a>
-					<a href="gallery.php"><li>Gallery</li></a>
-					<a href="specials.php"><li>Specials</li></a>
-					<a href="meet_and_event.php"><li>Meetings & Events</li></a>
-					<a href="contactus.php"><li>Contact</li></a>
-					<a href="directions.php"><li>Directions</li></a>
+					<a href="index.php" ><li class="home">HOME</li></a>
+					<a href="rooms.php"><li>ROOMS</li></a>
+					<a href="gallery.php"><li>GALLERY</li></a>
+					<a href="specials.php"><li>SPECIALS</li></a>
+					<a href="meet_and_event.php"><li>MEETINGS & EVENTS</li></a>
+					<a href="contactus.php"><li>CONTACT</li></a>
+					<a href="directions.php"><li>DIRECTIONS</li></a>
 					
 					</div>
 				

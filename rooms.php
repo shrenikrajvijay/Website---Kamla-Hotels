@@ -2,7 +2,7 @@
 
 <?php include_once('include_head.php');?>
 
-<body>
+<body style="font-family:myriad pro">
 
 
 	<div class="header">

@@ -44,7 +44,7 @@
 
 <style>
 * {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 </style>
 
@@ -69,7 +69,7 @@ body{
 	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
-
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 
 
 }
@@ -417,8 +417,8 @@ body{
 	/*padding-left: -2px;*/
 	margin: 0;
 	margin-top: 15px;
-	height: 42px;
-	font-size: 1em;
+	/*height: 42px;*/
+	font-size: 0.8em;
 	letter-spacing: 1px;
 	/*text-shadow: 0 0 2px black;*/
 	font-weight: bold;
@@ -432,6 +432,7 @@ body{
 	-webkit-box-shadow: 1px 8px 14px #000000;
 	box-shadow: 1px 8px 14px #000000;
 	z-index: 1;
+
 
 
 }
@@ -483,7 +484,7 @@ letter-spacing: 0.1em;
 font-size: 1.02em;
 color: black;
 /*font-family: h*/
-font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 /*border-left: solid 10px;*/
 }
 
@@ -519,6 +520,12 @@ font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
 
+/*.navbar-width{
+	padding-top: 6px;
+}*/
+
+
+
 nav ul{
 	/*background-color: #1f62a8;*/
 	margin: 0;
@@ -528,24 +535,10 @@ nav ul{
 	/*height: 100px;*/
   /*background-color: red;*/
 
-  background-image:
-    linear-gradient(
-      to right, 
-      #277bd3, #1b5592 
-    );
-    /*background: #0f84e8;*/
-    /*background-image: url("../images/back.jpg");*/
-
-
-	/*background: rgba(76,76,76,1);
-background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
-background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
-	*/
+  background: -webkit-linear-gradient(left, #0e53a1, #0e53a1, #0d6db5, #0d6db5, #0e53a1, #0e53a1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#0e53a1, #0e53a1, #0d6db5, #0d6db5, #0e53a1, #0e53a1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #0e53a1, #0e53a1, #0d6db5, #0d6db5, #0e53a1, #0e53a1); /* For Fx 3.6 to 15 */
+    background: linear-gradient(to right, #0e53a1, #0e53a1, #0d6db5, #0d6db5, #0e53a1, #0e53a1); /* Standard syntax (must be last) */
 }
 
 nav ul li{
@@ -555,7 +548,10 @@ nav ul li{
 	color: white;
 	margin: 0 3px 0 0;
 	background: inherit;
-	margin-top: 2px;
+	margin: 0px;
+	margin-top: 5px;
+	/*border-right: 1px solid black;*/
+	margin-right: 0px;
 	/*width: 100px;*/
 	/*transition: background-color 0.9s ease;*/
 	/*border-right: 2px solid;*/
@@ -796,7 +792,7 @@ nav ul li:hover{
 
 .reser{
 	background-color: #1f62a8;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	width: 240px;
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -810,7 +806,7 @@ nav ul li:hover{
 .reser h1{
 	color: white;
 	font-size: 1.5em;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	/*padding-bottom: 6px;*/
 }
 
@@ -973,23 +969,11 @@ overflow: hidden;
 
 
 .myButton {
-	/*-moz-box-shadow: 4px 7px 2px -1px #a16823;*/
-	/*-webkit-box-shadow: 4px 7px 2px -1px #a16823;*/
-	/*box-shadow: 4px 7px 2px -1px #a16823;*/
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffb514), color-stop(1, #fff5e5));
-	background:-moz-linear-gradient(top, #ffb514 5%, #fff5e5 100%);
-	background:-webkit-linear-gradient(top, #ffb514 5%, #fff5e5 100%);
-	background:-o-linear-gradient(top, #ffb514 5%, #fff5e5 100%);
-	background:-ms-linear-gradient(top, #ffb514 5%, #fff5e5 100%);
-	background:linear-gradient(to bottom, #ffb514 5%, #fff5e5 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb514', endColorstr='#fff5e5',GradientType=0);
-	background-color:#ffb514;
-	-moz-border-radius:0px;
-	-webkit-border-radius:0px;
-	border-radius:0px;
+	
+
 	display:inline-block;
 	cursor:pointer;
-	color:#000000;
+	/*color:#000000;*/
 	/*font-family:Georgia;*/
 	font-size:15px;
 	font-weight:bold;
@@ -1002,21 +986,35 @@ overflow: hidden;
 	width: 230px;
 color: white;
 	padding: 4px 0px;
-	/*z-index: 0;*/
+margin-right: 20px;
+-webkit-box-shadow: -1px 0px 15px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 15px 5px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 15px 5px rgba(0,0,0,0.75);
 	background-image:
     linear-gradient(
       to right, 
       #1b5592 ,#277bd3
+
+
     );
 
- /*   box-shadow: 0px 0px 12px 6px rgba(88, 75, 75, 0.97);
--moz-box-shadow: 0px 0px 12px 6px rgba(88, 75, 75, 0.97);
--webkit-box-shadow: 0px 0px 12px 6px rgba(88, 75, 75, 0.97);*/
 
 
-/*-webkit-box-shadow: 0px 1px 36px 8px rgba(0,0,0,1);
+
+/*-webkit-box-shadow: 2px 3px 576px 200px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 576px 200px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 576px 200px rgba(0,0,0,0.75);*/
+}
+
+
+
+
+.mybutton-shadow{
+	/*display: none;*/
+/*	-webkit-box-shadow: 0px 1px 36px 8px rgba(0,0,0,1);
 -moz-box-shadow: 0px 1px 36px 8px rgba(0,0,0,1);
-box-shadow: 0px 1px 36px 8px rgba(0,0,0,1);*/
+box-shadow: 0px 1px 36px 8px rgba(0,0,0,1);
+*/
 }
 
 
@@ -1145,7 +1143,10 @@ background: #333;
 }
 
 
-
+#head{
+	float: left;
+	clear: both;
+}
 
 
 .fon{
@@ -1166,11 +1167,11 @@ background: #333;
 	height: auto;
 	/*padding: 50px;*/
 	/*border: 5px solid black;*/
-	letter-spacing: 0.06em;
+	letter-spacing: 0.04em;
 	margin-top: 120px;
 	margin-bottom: 50px;
 	position: relative;
-font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 
 }
 
@@ -1190,10 +1191,15 @@ ul.class-name li {
 
 ul.bullets1{
 	list-style-type: square;
+	float: left;
+	clear: left;
+
 }
 
 ul.bullets2{
 	list-style-type: square;
+	float: left;
+
 }
 
 
@@ -1219,7 +1225,7 @@ ul.bullets2{
 	background-color: white;
 	top: -35px;
 	color: #4F4F4F;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 .context70{
@@ -1228,9 +1234,10 @@ ul.bullets2{
 	/*border: 5px solid black;*/
 	color: #4F4F4F;
 	margin: 0 auto;
+	margin-top: 150px;
 	height: auto;
 	line-height: 1.5em;
-	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	/*position: relative;*/
 	/*padding: 50px;*/
 
@@ -1355,7 +1362,7 @@ td h1 {
     font-size:20pt;
 
     /*text-align:center;*/
-    font-family:arial,sans-serif
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 
 }
 
@@ -1485,7 +1492,7 @@ column-gap: 10px;
 
     text-align:center;
 
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     margin-top: 0;
 
 }
@@ -1493,7 +1500,7 @@ column-gap: 10px;
 
 .context_left p {
 
-font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 
 }
 
@@ -1515,7 +1522,7 @@ font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: white;
    font-size: 10px;
-   font-family: Georgia, serif;
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
    text-decoration: none;
    vertical-align: middle;
 
@@ -1533,6 +1540,13 @@ font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
    border-top-color: #1b435e;
    background: #1b435e;
    }
+
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,7 @@
 
 <?php include_once('include_head.php');?>
 
-<body>
+<body style="font-family:myriad pro">
 	<div class="header">
 		<?php include('header.php');?>
     <?php include('navbar_specials.php');?>

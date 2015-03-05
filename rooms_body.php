@@ -9,7 +9,8 @@
                 <br><HR><br>
                 <h1 class="green">All of our rooms have:</h1>
                 <br>
-                <div style="margin-left:90px;"><ul class="bullets1"> 
+                <div style="margin-left:90px;">
+                    <ul class="bullets1"> 
                     
                         <li>Premium HD television channel(s)</li>
                         <li>Wireless high-speed Internet access</li>
@@ -34,9 +35,9 @@
                         <li>Shower/tub combination</li>
                         <li>Wheelchair accessible</li>
                     </ul>
-                </div>
-                <br><HR><br>
-                <h1 class="blue">2 Queen Bedroom Suite with Sofa bed</h1>
+
+               </div>
+                <h1 class="blue"> 2 Queen Bedroom Suite with Sofa bed</h1>
                 <br>
                 <p><img src="smiley.gif" alt=""
                     style="float:left;width:112px;height:112px;padding-right:8px;padding-bottom-8px;">Enjoy the newly remodeled suites with two Queen Bed at SpringHill Suites. This room features living area with sleeper sofa in a adjoining sleeping area separated by a privacy wall. The room features a pillowtop mattress and whisper soft duvet for a great night's sleep. In addition all of our studios are nonsmoking rooms.</p>
