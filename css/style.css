@@ -103,7 +103,7 @@ body{
 /*	color:black;
 
 	position: relative;*/
-	width: 880px;
+	width: 800px;
 	/*height: auto;*/
 
 	margin: 0 auto;
@@ -126,7 +126,7 @@ body{
 	color:black;
 
 	position: relative;*/
-	width: 80%;
+	width: 550px;
 	/*height: auto;
 
 	margin-top: 0px;
@@ -343,11 +343,12 @@ body{
 	margin-right: 0px;
 	
 
+
 	padding-top: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 10px;
-
+	display: none;
 	}
 }
 
@@ -484,6 +485,7 @@ letter-spacing: 0.1em;
 font-size: 1.02em;
 color: black;
 /*font-family: h*/
+text-decoration: none;
 font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 /*border-left: solid 10px;*/
 }
@@ -492,12 +494,23 @@ font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 .nav_below_social li{
 	display: inline-block;
 	padding-left: 10px;
+	text-decoration: none;
 /*border-left: solid 1px;*/
 
 }
 
+
+.nav_deco{
+	
+	text-decoration: none;
+/*border-left: solid 1px;*/
+
+}
+
+
 .borleft{
-	border-left: 2px solid;
+	border-left: 1px solid;
+	
 }
 
 
@@ -572,7 +585,24 @@ nav ul li:hover{
 .home{
 	/*background-color: orange;*/
 	color: black;
+	border-right: 100px;
+
 }
+
+.nav_line{
+	padding: 0;
+}
+.nav_line:hover{
+	color: white;
+}
+
+
+@media screen and (max-width: 768px){
+	.nav_line{
+		display: none;
+	}
+}
+
 .contact_select{
 	/*background-color: orange;*/
 	color: black;
@@ -611,7 +641,7 @@ max-height: 0;
 }
 
 .dropdown_showing{
-	max-height: 20em;
+	max-height: 30em;
 }
 
 nav ul li{
@@ -745,32 +775,55 @@ nav ul li:hover{
 
 .wholepageslider-map{
 	background-color: white;
-	width: 91%;
+	width: 80%;
 	height: auto;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	top: 000px;
 	position: relative;
 	/*left: 20px;*/
+	margin: 0 auto;
 
 }
 
+
+
 .google-maps{
        position: relative;
+       /*margin: 10px 10px;*/
+        padding-bottom: 44%; // This is the aspect ratio
+        height: auto;
+        /*margin-left: 10%;*/
+        overflow: hidden;
+        top: 0px;
+        width: 60%;
+       margin: 0 auto;
+       margin-top: 40px;
+       margin-bottom: 40px;
+       border: 4px solid black;
+       border-radius: 10px;
+        /*for full screen*/
+        /*position: relative;
         padding-bottom: 50%; // This is the aspect ratio
         height: auto;
         overflow: hidden;
         top: 0px;
         width: 111%;
-        left: -6%;
+        left: -6%;*/
 
     }
+
+
+.map-outer{
+	border: 4px solid black;
+}
 
 .google-maps iframe {
         position: absolute;
         top: 0;
         left: 0;
+        /*border: 4px solid black;*/
         width: 100% !important;
-        height: 90% !important;
+        height: 100% !important;
 		box-sizing: border-box;
 
 }
@@ -920,7 +973,7 @@ overflow: hidden;
 
 	.reservation-box{
 		/*display: none;*/
-		top: -30px;
+		/*top: -30px;*/
 	}
 }
 
@@ -1193,6 +1246,7 @@ ul.bullets1{
 	list-style-type: square;
 	float: left;
 	clear: left;
+	padding-right: 20px;
 
 }
 
@@ -1200,6 +1254,11 @@ ul.bullets2{
 	list-style-type: square;
 	float: left;
 
+}
+
+
+.clearleft{
+	clear: both;
 }
 
 
@@ -1260,7 +1319,7 @@ font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	.context70{
 	width: 100%;
 	/*background-color: red;*/
-	border: 5px solid black;
+	/*border: 5px solid black;*/
 
 	margin: 0 auto;
 	height: auto;
@@ -1322,6 +1381,17 @@ font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   /*padding-top: 100px;*/
 
 }
+@media screen and (max-width: 860px){
+	
+	.slideimage-down img{
+ 
+  height: 448px;
+  width: 100%;
+  /*padding-top: 100px;*/
+  display: none;
+
+}	
+}
 
 .left{
 	/*display: none;*/
@@ -1341,12 +1411,14 @@ font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	.left{
 	/*display: none;*/
 	float: left;
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 }
 .right {
 	/*display: none;*/
 	float: left;
-	width: 100%;
+	width: 70%;
+	margin: 0 auto;
 }
 
 }
@@ -1456,6 +1528,7 @@ margin: 0 auto;
 
 .footer-left{
 	padding-left: 20px;
+	text-align: center;
 }
 
 
@@ -1548,8 +1621,29 @@ font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 
 
 
+ .footer_button {
+    background: white;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 15px;
+    /*height: 60px;*/
+    /*width: 150px;*/
+    /*line-height: 60px;*/
+    margin-top: 5px;
 
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
 
+.footer_button:hover {
+  background: #5bb147;
+}
+
+.footer_subscribe{
+	/*margin: 2px auto;*/
+
+}
 
 
 

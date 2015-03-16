@@ -6,8 +6,8 @@
 
                       		<li>EXCLUSIVE OFFERS</li>
 
-                      				<li><input type="text" placeholder="email address"></li>
-                      				<li><input type="button" value="Subscribe"></li>
+                      				<li><input type="text" class="footer_subscribe" placeholder="email address"></li>
+                      				<li style="margin-left: 9%;"><input type="button" class="footer_button" value="Subscribe"></li>
 
                       		</td>
                           

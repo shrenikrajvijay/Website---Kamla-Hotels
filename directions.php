@@ -13,10 +13,14 @@
 	
 
   <div class="wholepageslider-map">
+    
         <div class="google-maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d106092.64032909529!2d-117.923615!3d33.802118000000014!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7df45f1e17b%3A0x429a1a2d3dec273!2sEden+Roc+Inn+%26+Suites+Anaheim!5e0!3m2!1sen!2sus!4v1421276395007" width="600" height="450" frameborder="0" style="border:0"></iframe>
-              </div> 
-      </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d106140.06287674866!2d-117.89782287811279!3d33.76384508481985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x429a1a2d3dec273!2sEden+Roc+Inn+%26+Suites+Anaheim!5e0!3m2!1sen!2sus!4v1426527105910" width="600" height="450" frameborder="0" style="border:0"></iframe>"  frameborder="0" style="border:0"></iframe>
+
+         </div> 
+    
+  </div>
 
 
 

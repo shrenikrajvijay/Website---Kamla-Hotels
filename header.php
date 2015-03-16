@@ -2,7 +2,7 @@
 <div class="width_70">
 	
 	<div class="logo_frame">
-		<img src="images/logo.png"  class="logo">
+		<a href="index.php"><img src="images/logo.png"  class="logo"></a>
 	</div>
 
 	<div class="social_frame">
@@ -15,9 +15,9 @@
 	</div>
 
 	<ul style="float:right; clear:both;" class="nav_below_social">
-		<li><h4>Reservation</h4></li>
-		<li class="borleft"><h4>Reservation</h4></li>
-		<li class="borleft"><h4>Reservation</h4></li>
+		<li><h4><a class="nav_deco" href="#">Reservation</a></h4></li>
+		<li class="borleft"><h4><a class="nav_deco" href="#">Reservation</a></h4></li>
+		<li class="borleft"><h4><a class="nav_deco" href="#">Reservation</a></h4></li>
 	</ul>
 
 
