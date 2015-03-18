@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="res/css/style.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.media.css">
 	
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
 
@@ -23,7 +24,6 @@
     <title>Holiday Inn</title>
 
 
-   
 
 
 

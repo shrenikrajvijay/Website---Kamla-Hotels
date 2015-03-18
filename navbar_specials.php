@@ -25,3 +25,23 @@
 	</nav> 
    
 </div>
+<script>
+$('.navbar_dropdown').on('click', function () {
+		$('nav ul').toggleClass('dropdown_showing')
+});
+
+</script>
+<script>
+function myfunction(context){
+	
+	
+	document.getElementById("home").style.color="white";
+	document.getElementById("rooms").style.color="white";
+	document.getElementById("gallery").style.color="white";
+	document.getElementById("specials").style.color="white";
+	document.getElementById("meet").style.color="white";
+	document.getElementById("contact").style.color="white";
+	document.getElementById("directions").style.color="white";
+	context.style.color="black";
+}
+</script>o

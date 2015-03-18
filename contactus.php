@@ -31,7 +31,7 @@
         <tr>
             <td width="70%" class="left">
 
-            	<h1>Contact Us for a Great Stay</h1><br>
+            	<h1 class="blue">Contact Us for a Great Stay</h1><br>
             	<p>SpringHill Suites Hesperia Victorville<br>
 					9625 Mariposa Rd.<br>
 					Hesperia, CA 92345<br>
@@ -39,7 +39,7 @@
 					Phone: 760-948-8982
 				</p>
 				<br>
-				<h1>SALES MANAGER</h1><br>
+				<h1 class="green">SALES MANAGER</h1><br>
             	<p>
             		gm@SpringHillHesperia.com<br>	
 					Phone: 760-948-8982

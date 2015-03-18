@@ -11,7 +11,6 @@
 	</div>	
 
 
-<!-- certain changes -->
 
 
 

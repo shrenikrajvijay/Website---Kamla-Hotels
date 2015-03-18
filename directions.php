@@ -23,6 +23,35 @@
   </div>
 
 
+  <div class="map_below">
+      <h1 class="green">Ontario Intl Airport( ONT)</h1>
+                <br>
+                    <ul class="list"> 
+                        
+                        <li>Distance: 35.0 MI/56.33 KM NORTH to Hotel</li>
+                        <li>Take I-15 North. Take exit #143 (Main Street. in Hesperia) when you come off the freeway get into the left lane and turn left going over the freeway. We are on the right hand side.</li>
+                    </ul>
+                    <br>
+                    <h1 class="blue">Los Angeles Intl Airport( LAX)</h1>
+                <br>
+                    <ul class="list"> 
+
+                        
+                        <li>Distance: 100.0 MI/160.93 KM NORTH to Hotel</li>
+                        <li>Take I-105 E to 605 N, continue to 210 E until you get to 1-15 N. Exit #143 Main Street Hespeeria. Stay in the left lane going over the freeway. We are on the right hand side.</li>
+                      </ul>
+                      <br>
+                <h1 class="green">Las Vegas Mc CarranIntlAirport( LAS)</h1>
+                  <br>
+                    <ul class="list"> 
+
+
+                        <li>Distance: 186.0 MI/299.34 KM SOUTH to Hotel</li>
+                        <li>Take 10 to 215 W to I-15 S. 186 miles total. Exit # 143 off of Main Street in Hesperia. Make a right off of freeway. We are on the right hand side.</li>
+                   
+                    </ul>
+  </div>
+
 
 	<div class="footer">
 		<?php include('footer.php');?>
